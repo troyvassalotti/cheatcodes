@@ -1,12 +1,24 @@
 {
-	"name": "cheatcode",
-	"private": true,
-	"version": "0.0.1",
+	"name": "@troyv/cheatcodes",
 	"type": "module",
+	"description": "Create cheat codes for your website.",
+	"version": "0.0.2",
+	"files": [
+		"dist"
+	],
+	"main": "./dist/cheatcodes.umd.cjs",
+	"module": "./dist/cheatcodes.js",
+	"exports": {
+		".": {
+			"import": "./dist/cheatcodes.js",
+			"require": "./dist/cheatcodes.umd.cjs"
+		}
+	},
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"lint::fix": "npx prettier --write ."
 	},
 	"devDependencies": {
 		"@types/canvas-confetti": "^1.6.0",

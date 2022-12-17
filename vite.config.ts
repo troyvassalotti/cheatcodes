@@ -4,7 +4,7 @@ export default {
 	build: {
 		lib: {
 			entry: 'src/main',
-			formats: ['es'],
+			name: 'CheatCodes',
 		},
 	},
 }
