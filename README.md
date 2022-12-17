@@ -1,3 +1,3 @@
-# cheatcodes
+# Cheatcodes
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-cj3bfe)
+Start using cheat codes on your website for **added fun**.

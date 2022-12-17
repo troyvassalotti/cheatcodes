@@ -22,18 +22,17 @@
 				min-block-size: 100vh;
 			}
 		</style>
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
 	</head>
 	<body>
 		<div>Up, Up, Down, Down, Left, Right, Left, Right, B, A, Enter</div>
 		<script type="module">
-			import CheatCode from "./src/main.ts"
+			import CheatCode from './src/main.ts'
 
-      // Default, Konami Code
+			// Default, Konami Code
 			new CheatCode().listen()
 
-      // Guitar Hero
-			new CheatCode("7 1 7 0 7 2 7 3 6", "gamepad").listen()
+			// Guitar Hero
+			new CheatCode('7 1 7 0 7 2 7 3 6', 'gamepad').listen()
 		</script>
 	</body>
 </html>
