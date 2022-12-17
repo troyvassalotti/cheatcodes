@@ -36,6 +36,6 @@ export enum PlaystationTwoKeyMap {
 
 /** Possible event types for listening to cheat codes. */
 export enum Events {
-	Keyboard = "keyboard",
-	Gamepad = "gamepad",
+	Keyboard = 'keyboard',
+	Gamepad = 'gamepad',
 }
