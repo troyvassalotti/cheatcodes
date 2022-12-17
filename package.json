@@ -14,6 +14,16 @@
 			"require": "./dist/cheatcodes.umd.cjs"
 		}
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/troyvassalotti/cheatcodes.git"
+	},
+	"author": "Troy Vassalotti",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/troyvassalotti/cheatcodes/issues"
+	},
+	"homepage": "https://github.com/troyvassalotti/cheatcodes#readme",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
