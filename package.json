@@ -18,7 +18,8 @@
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
-		"lint::fix": "npx prettier --write ."
+		"lint::fix": "npx prettier --write .",
+		"publish": "npm run build && npm publish"
 	},
 	"devDependencies": {
 		"@types/canvas-confetti": "^1.6.0",
