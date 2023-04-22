@@ -83,7 +83,7 @@ export default class CheatCode {
 	}
 
 	/** Store connected gamepad and start listening for button presses. */
-	private gamepadConnected(event: GamepadEvent) {
+	private gamepadConnected = (event: GamepadEvent) => {
 		const { gamepad } = event
 
 		console.info(
@@ -99,7 +99,7 @@ export default class CheatCode {
 	}
 
 	/** Delete the disconnected gamepad from state. */
-	private gamepadDisconnected(event: GamepadEvent) {
+	private gamepadDisconnected = (event: GamepadEvent) => {
 		const { gamepad } = event
 
 		console.info(
