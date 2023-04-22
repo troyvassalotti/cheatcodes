@@ -112,6 +112,7 @@ export default class CheatCode {
 
 	/** Respond to gamepad button presses by checking the queue against the required pattern. */
 	private buttonPressed(id: number): void {
+		console.log('Button Pressed!', id)
 		this.checkTime()
 		this.entries.push(id)
 		this.lastEntryTime = this.now
@@ -122,7 +123,7 @@ export default class CheatCode {
 	}
 
 	/** Reads pressed button values from the connected gamepad. */
-	private readGamepadValues(): void {
+	private readGamepadValues = (): void => {
 		// Traverse the list of gamepads reading the ones connected to this browser
 		this.gamepadIndexes.forEach((item, index) => {
 			if (!item || !this.connectedGamepads || !this.connectedGamepads[index])
